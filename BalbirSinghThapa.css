@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tektur', cursive;
+    box-sizing: border-box;
+}
+h4{
+    margin-top: -2.5rem;
+}
+p{
+    font-weight: bold;
+    margin-top: 0.5rem;
+    font-size: 23px;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url("https://www.survivingwithandroid.com/wp-content/uploads/2014/11/android_weather_app.jpg   ");
+    align-items: center;
+    background-size: cover;
+
+}
+
+.box{
+    width: 570px;
+    height: 780px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+}
+.upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.enterPlace {
+    font-size: 22px;
+    padding-left: 1rem;
+    background:none;
+    border: none;
+    border: 1px solid #555;
+    height: 40px;
+    width: 300px;    
+}
+button{
+    border-radius: 10px;
+    text-decoration: none;
+}
+button:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+    color: darkred;
+    font-size: 26px;
+}
+
+#return{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 8rem;
+    font-size: 28px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+#histW{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 8rem;
+    margin-left: 12rem;
+    font-size: 28px;
+}
+
+#searchBtn{
+    width: 20%;
+    font-size: 28px;
+    margin-left: 1rem;  
+    border-radius: 10px;
+}
+
+/* #searchButton:hover{
+    cursor: pointer;
+    color: darkgray;
+    background-color: aqua;
+    font-size: 26px;
+} */
+
+.watch {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+}
+.imageJs{
+    width: 200px;
+    height: 200px;
+}
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+}
+.temperature{
+    font-size: 100px;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+.min-max {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#weat{
+    display: flex;
+
+}
+.extra{
+    height: 100px;
+    width: 133px;
+}
